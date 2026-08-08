@@ -12,43 +12,27 @@ function ProjectDetails() {
 
 
     useEffect(() => {
+    async function fetchProject() {
+        try {
+            const response = await axios.get(
+                `${import.meta.env.VITE_API_URL}/api/projects/${slug}`
+            );
 
-        async function fetchProject() {
+            setProject(response.data);
 
-            try {
-
-                const response = await axios.get(
-                    `${import.meta.env.VITE_API_URL}${project.image}`
-                );
-
-
-                const foundProject = response.data.find(
-                    item => item.slug === slug
-                );
-
-
-                setProject(foundProject);
-
-
-            } catch (error) {
-
-                console.log(
-                    "Project details error:",
-                    error
-                );
-
-            } finally {
-
-                setLoading(false);
-
-            }
-
+        } catch (error) {
+            console.log(
+                "Project details error:",
+                error
+            );
+        } finally {
+            setLoading(false);
         }
+    }
 
+    fetchProject();
 
-        fetchProject();
-
-    }, [slug]);
+}, [slug]);
 
 
 
