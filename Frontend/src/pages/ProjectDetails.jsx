@@ -18,7 +18,7 @@ function ProjectDetails() {
             try {
 
                 const response = await axios.get(
-                    "http://localhost:5000/api/projects"
+                    `${import.meta.env.VITE_API_URL}${project.image}`
                 );
 
 
@@ -126,7 +126,7 @@ function ProjectDetails() {
                             src={
                                 project.image.startsWith("http")
                                     ? project.image
-                                    : `http://localhost:5000${project.image}`
+                                    : `${import.meta.env.VITE_API_URL}${project.image}`
                             }
 
                             alt={project.title}

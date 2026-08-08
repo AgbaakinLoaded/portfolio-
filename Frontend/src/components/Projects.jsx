@@ -101,10 +101,8 @@ function Projects() {
 
                                     src={
                                         project.image
-
-                                            ? `http://localhost:5000${project.image}`
-
-                                            : "https://placehold.co/600x400?text=No+Image"
+                                        ? `${import.meta.env.VITE_API_URL}${project.image}`
+                                        : "https://placehold.co/600x400?text=No+Image"
                                     }
 
                                     alt={project.title}

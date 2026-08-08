@@ -396,7 +396,7 @@ function ProjectForm({
               src={
                 project.image instanceof File
                 ? URL.createObjectURL(project.image)
-                : `http://localhost:5000${project.image}`
+                : `${import.meta.env.VITE_API_URL}${project.image}`
               }
 
               alt="preview"

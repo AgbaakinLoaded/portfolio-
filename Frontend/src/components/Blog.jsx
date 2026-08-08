@@ -322,9 +322,7 @@ function Blog(){
                                 <img
 
 
-                                src={
-                                    `http://localhost:5000${blog.image}`
-                                }
+                                src={`${import.meta.env.VITE_API_URL}${blog.image}`}
 
 
                                 alt={blog.title}
