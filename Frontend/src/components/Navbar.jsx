@@ -29,24 +29,22 @@ function Navbar() {
     ];
 
     return (
-        <nav className="bg-white border-b border-gray-200 text-slate-800 shadow-sm">
+        <nav className="h-20 bg-white border-b border-gray-200 text-slate-800 shadow-sm">
 
-            <div className="max-w-7xl mx-auto px-6 py-4">
+            <div className="max-w-7xl mx-auto px-6 h-full">
 
-                <div className="flex justify-between items-center">
-
-                    {/* Logo */}
+                <div className="flex justify-between items-center h-full">
 
                     {/* Logo */}
 
                     <Link
-                    to="/"
-                    className="flex items-center"
+                        to="/"
+                        className="flex items-center"
                     >
                         <img
-                        src="/logo.jpg"
-                        alt="Akinsola logo"
-                        className="h-20 w-auto object-contain"
+                            src="/logo.jpg"
+                            alt="Akinsola Data Analyst"
+                            className="h-12 w-auto object-contain"
                         />
                     </Link>
 
@@ -61,10 +59,10 @@ function Navbar() {
                                 key={link.path}
                                 to={link.path}
                                 className="
-                                font-medium
-                                text-slate-600
-                                hover:text-blue-600
-                                transition
+                                    font-medium
+                                    text-slate-600
+                                    hover:text-blue-600
+                                    transition
                                 "
                             >
                                 {link.name}
@@ -79,10 +77,10 @@ function Navbar() {
 
                     <button
                         className="
-                        md:hidden
-                        text-slate-800
-                        hover:text-blue-600
-                        transition
+                            md:hidden
+                            text-slate-800
+                            hover:text-blue-600
+                            transition
                         "
                         onClick={() => setOpen(!open)}
                         aria-label="Toggle menu"
@@ -105,10 +103,12 @@ function Navbar() {
 
                     <div className="
                         md:hidden
-                        mt-5
-                        pt-5
+                        mt-0
+                        px-2
+                        py-5
                         border-t
                         border-gray-200
+                        bg-white
                         flex
                         flex-col
                         gap-5
@@ -121,10 +121,10 @@ function Navbar() {
                                 to={link.path}
                                 onClick={() => setOpen(false)}
                                 className="
-                                font-medium
-                                text-slate-700
-                                hover:text-blue-600
-                                transition
+                                    font-medium
+                                    text-slate-700
+                                    hover:text-blue-600
+                                    transition
                                 "
                             >
                                 {link.name}
