@@ -127,7 +127,7 @@ function Contact() {
                             mb-5
                         ">
 
-                            Let's Connect
+                            Get in Touch
 
                         </h3>
 
@@ -139,9 +139,8 @@ function Contact() {
                             mb-6
                         ">
 
-                            I am open to opportunities in Data
-                            Analytics, Frontend Development and
-                            software projects. Feel free to reach out.
+                            I’m always open to discussing data analytics, technology, and opportunities to collaborate. 
+                            If you have a project, an opportunity, or simply want to connect, feel free to reach out.
 
                         </p>
 
@@ -150,54 +149,34 @@ function Contact() {
                         <div className="space-y-4">
 
 
-                            <p>
+                            <a
+                            href="mailto:akindeleemmanuel39@gmail.com"
+                            className="hover:text-blue-600 transition"
+                            >
+                                E-mail: akindeleemmanuel39@gmail.com
+                            </a>
 
-                                📧 Email:
+                            <br></br>
 
-                                <span className="
-                                    ml-2
-                                    text-blue-600
-                                ">
+                            <a
+                            href="https://www.linkedin.com/in/akindele-emmanuel-4843a82aa/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="hover:text-blue-600 transition"
+                            >
+                                 LinkedIn: Let Connect
+                            </a>
 
-                                    agbaakinloaded@gmail.com
+                            <br></br>
 
-                                </span>
-
-                            </p>
-
-
-
-                            <p>
-
-                                💼 LinkedIn:
-
-                                <span className="
-                                    ml-2
-                                    text-blue-600
-                                ">
-
-                                    https://www.linkedin.com/in/akindele-emmanuel-4843a82aa/
-
-                                </span>
-
-                            </p>
-
-
-
-                            <p>
-
-                                💻 GitHub:
-
-                                <span className="
-                                    ml-2
-                                    text-blue-600
-                                ">
-
-                                    https://github.com/AgbaakinLoaded
-
-                                </span>
-
-                            </p>
+                            <a
+                            href="https://github.com/AgbaakinLoaded"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="hover:text-blue-600 transition"
+                            >
+                             GitHub: View my projects 
+                            </a>
 
 
                         </div>

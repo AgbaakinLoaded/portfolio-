@@ -8,17 +8,17 @@ function Footer() {
 
 
         <h3 className="text-xl font-bold">
-          Akinsola.dev
+          
         </h3>
 
 
-        <p className="text-gray-400 mt-3">
-          Data Analyst | Frontend Developer
+        <p className="text-gray-400 mt-3 font-bold">
+          Akinsola | Data Analyst 
         </p>
 
 
         <p className="text-gray-500 mt-5">
-          © 2026 Akin. All rights reserved.
+          © 2026 AkinsolaHub. All rights reserved.
         </p>
 
 

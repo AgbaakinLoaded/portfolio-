@@ -44,7 +44,7 @@ function Navbar() {
                         <img
                             src="/logo.jpg"
                             alt="Akinsola Data Analyst"
-                            className="h-12 w-auto object-contain"
+                            className="h-16 w-auto object-contain"
                         />
                     </Link>
 

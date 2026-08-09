@@ -28,7 +28,7 @@ function About() {
 
 
           <p>
-            Beyond the dashboard
+            Beyond the dashboard, 
             I approach analytics from a business perspective.
             A dashboard is only useful when it answers an important question. A metric matters when it provides context. And an analysis creates value when it contributes to a better decision.
             That mindset influences how I approach every project. Rather than simply presenting numbers, I focus on understanding what the data reveals about a business, why it matters, and what can be done with that information.

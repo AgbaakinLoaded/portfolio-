@@ -164,7 +164,7 @@ function Hero() {
                     ">
 
                         <a
-                            href="https://www.linkedin.com/in/akindele-emmanuel-4843a82aa/"
+                            href="https://github.com/AgbaakinLoaded"
                             className="
                             text-slate-500
                             font-medium
@@ -177,7 +177,7 @@ function Hero() {
 
 
                         <a
-                            href="https://github.com/AgbaakinLoaded"
+                            href= "https://www.linkedin.com/in/akindele-emmanuel-4843a82aa/"
                             className="
                             text-slate-500
                             font-medium

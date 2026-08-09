@@ -3,10 +3,12 @@ import SectionTitle from "./ui/SectionTitle";
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { getProjects } from "../services/projectService";
+import { useLocation } from "react-router-dom";
 
 function Projects() {
 
     const [projects, setProjects] = useState([]);
+    const location = useLocation();
 
     useEffect(() => {
 
@@ -296,7 +298,7 @@ function Projects() {
 
                 {/* View All Projects */}
 
-                {projects.length > 3 && (
+                {location.pathname === "/" && projects.length > 3 && (
 
                     <div className="flex justify-center mt-12">
 
@@ -319,7 +321,7 @@ function Projects() {
 
                         >
 
-                            View All Projects →
+                            View More Projects →
 
                         </Link>
 
