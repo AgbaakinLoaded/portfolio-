@@ -44,7 +44,7 @@ function Navbar() {
                     className="flex items-center"
                     >
                         <img
-                        src="/logo.jpeg"
+                        src="/logo.jpg"
                         alt="Akinsola logo"
                         className="h-10 w-auto object-contain"
                         />
