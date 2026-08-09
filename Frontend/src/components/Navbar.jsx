@@ -29,7 +29,7 @@ function Navbar() {
     ];
 
     return (
-        <nav className="h-20 bg-white border-b border-gray-200 text-slate-800 shadow-sm">
+        <nav className="relative z-50 h-20 bg-white border-b border-gray-200 text-slate-800 shadow-sm">
 
             <div className="max-w-7xl mx-auto px-6 h-full">
 
@@ -101,36 +101,46 @@ function Navbar() {
 
                 {open && (
 
-                    <div className="
-                        md:hidden
-                        mt-0
-                        px-2
-                        py-5
-                        border-t
-                        border-gray-200
-                        bg-white
-                        flex
-                        flex-col
-                        gap-5
-                    ">
+                    <div
+                        className="
+                            md:hidden
+                            absolute
+                            left-0
+                            right-0
+                            top-20
+                            bg-white
+                            border-t
+                            border-gray-200
+                            shadow-lg
+                            z-50
+                            px-6
+                            py-6
+                        "
+                    >
 
-                        {links.map((link) => (
+                        <div className="flex flex-col gap-5 max-w-7xl mx-auto">
 
-                            <Link
-                                key={link.path}
-                                to={link.path}
-                                onClick={() => setOpen(false)}
-                                className="
-                                    font-medium
-                                    text-slate-700
-                                    hover:text-blue-600
-                                    transition
-                                "
-                            >
-                                {link.name}
-                            </Link>
+                            {links.map((link) => (
 
-                        ))}
+                                <Link
+                                    key={link.path}
+                                    to={link.path}
+                                    onClick={() => setOpen(false)}
+                                    className="
+                                        block
+                                        font-medium
+                                        text-slate-700
+                                        hover:text-blue-600
+                                        transition
+                                        py-2
+                                    "
+                                >
+                                    {link.name}
+                                </Link>
+
+                            ))}
+
+                        </div>
 
                     </div>
 
