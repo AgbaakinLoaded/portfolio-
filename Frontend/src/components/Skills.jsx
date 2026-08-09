@@ -10,36 +10,29 @@ function Skills() {
         "Microsoft Excel",
         "SQL",
         "Power BI",
-        "Data Cleaning",
+        "Python",
+        "Data Cleaning and Preparation",
         "Data Visualisation",
-        "Dashboard Development"
+        "Dashboard Development",
+        "KPI & Performance Analysis",
+        "Exploratory Data Analysis"
       ]
     },
 
 
-    {
-      title: "Frontend Development",
+     
+      // title: "Frontend Development",
 
-      skills: [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "React",
-        "Tailwind CSS",
-        "Responsive Design"
-      ]
-    },
-
+      
 
     {
       title: "Backend & Database",
 
       skills: [
-        "PHP",
-        "Laravel",
+        "PostgreSQL",
         "MySQL",
         "Database Design",
-        "REST API"
+        
       ]
     },
 
@@ -51,8 +44,8 @@ function Skills() {
         "Git",
         "GitHub",
         "VS Code",
-        "Vite",
-        "Figma"
+        
+        
       ]
     }
 

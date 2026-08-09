@@ -37,11 +37,17 @@ function Navbar() {
 
                     {/* Logo */}
 
+                    {/* Logo */}
+
                     <Link
-                        to="/"
-                        className="text-2xl font-bold text-slate-900"
+                    to="/"
+                    className="flex items-center"
                     >
-                        Portfolio
+                        <img
+                        src="/logo.jpeg"
+                        alt="Akinsola logo"
+                        className="h-10 w-auto object-contain"
+                        />
                     </Link>
 
 

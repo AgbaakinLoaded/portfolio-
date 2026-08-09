@@ -18,18 +18,22 @@ function About() {
 
 
           <p>
-            I am a Computer Science graduate with a strong interest
-            in Data Analytics and Frontend Development. I enjoy
-            transforming data into meaningful insights and building
-            modern web applications that solve real-world problems.
+            Building at the intersection of technology, data, and business.
+            I’m Akindele Emmanuel, a First-Class Computer Science graduate and Data & Business Intelligence professional with a strong foundation in technology, analytics, and problem-solving.
+            My work centers on transforming data into information that businesses can understand and act upon. I combine technical knowledge with analytical thinking to uncover patterns, evaluate performance, identify opportunities, and communicate insights clearly.
+            My toolkit includes Excel, SQL, Power BI, and Python, which I use across the data lifecycle — from data preparation and analysis to visualization, reporting, and insight generation.
+
           </p>
 
 
 
           <p>
-            My technical experience covers data analysis using Excel,
-            SQL and Power BI, alongside frontend technologies such as
-            HTML, CSS, JavaScript, React and Tailwind CSS.
+            Beyond the dashboard
+            I approach analytics from a business perspective.
+            A dashboard is only useful when it answers an important question. A metric matters when it provides context. And an analysis creates value when it contributes to a better decision.
+            That mindset influences how I approach every project. Rather than simply presenting numbers, I focus on understanding what the data reveals about a business, why it matters, and what can be done with that information.
+            My interests span Data Analytics, Business Intelligence, Business Analysis, and technology-driven business strategy. I’m particularly drawn to environments where data is treated not merely as an operational resource, but as a foundation for growth, efficiency, and strategic decision-making.
+
           </p>
 
 
@@ -44,10 +48,9 @@ function About() {
 
 
           <p>
-            I am continuously improving my skills in software
-            development, data analytics and database technologies
-            while building projects that demonstrate practical
-            problem-solving ability.
+            My Computer Science background gives me the technical foundation to work comfortably with data and technology, while my growing business orientation shapes how I think about the problems those tools should solve.
+            Welcome to my wold.
+
           </p>
 
 

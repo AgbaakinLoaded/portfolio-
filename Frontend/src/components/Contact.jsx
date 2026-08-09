@@ -127,7 +127,7 @@ function Contact() {
                             mb-5
                         ">
 
-                            Let's work together
+                            Let's Connect
 
                         </h3>
 
@@ -159,7 +159,7 @@ function Contact() {
                                     text-blue-600
                                 ">
 
-                                    your-email@example.com
+                                    agbaakinloaded@gmail.com
 
                                 </span>
 
@@ -176,7 +176,7 @@ function Contact() {
                                     text-blue-600
                                 ">
 
-                                    linkedin.com/in/yourprofile
+                                    https://www.linkedin.com/in/akindele-emmanuel-4843a82aa/
 
                                 </span>
 
@@ -193,7 +193,7 @@ function Contact() {
                                     text-blue-600
                                 ">
 
-                                    github.com/yourusername
+                                    https://github.com/AgbaakinLoaded
 
                                 </span>
 

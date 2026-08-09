@@ -38,7 +38,7 @@ function Hero() {
                         mb-5
                     ">
 
-                        Data Analyst & Frontend Developer
+                        Data Analyst 
 
                     </p>
 
@@ -79,12 +79,12 @@ function Hero() {
                         mt-7
                     ">
 
-                        I am Akinsola, a Computer Science graduate
-                        focused on data analytics and modern web
-                        development. I use tools such as Excel, SQL,
-                        Power BI, React and JavaScript to analyse
-                        problems, uncover insights and build practical
-                        digital solutions.
+                        I'm Akinsola - First-Class Computer Science graduate| Writer |
+                        Data Analyst building at the intersection of data and business.
+                        I use Excel, SQL, PowerBI, and Python to transfrom messy data
+                        into clear insights, compelling visualizations, and better business decisions.
+                        Building my skills and path towards becoming a Data/Business Intelligence Proffesonal.
+
 
                     </p>
 
@@ -164,7 +164,7 @@ function Hero() {
                     ">
 
                         <a
-                            href="#"
+                            href="https://www.linkedin.com/in/akindele-emmanuel-4843a82aa/"
                             className="
                             text-slate-500
                             font-medium
@@ -177,7 +177,7 @@ function Hero() {
 
 
                         <a
-                            href="#"
+                            href="https://github.com/AgbaakinLoaded"
                             className="
                             text-slate-500
                             font-medium
